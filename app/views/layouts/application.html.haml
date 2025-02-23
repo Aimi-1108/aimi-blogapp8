@@ -6,10 +6,12 @@
     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
     = csrf_meta_tags
     = csp_meta_tag
-  %body
-    %p.notice= notice
-    %p.alert= alert
-    = stylesheet_link_tag "application", "data-turbo-track": "reload"
-    = javascript_importmap_tags
+
+%body
+  %p.notice= notice
+  %p.alert= alert
+  = stylesheet_link_tag "application", "data-turbo-track": "reload"
+  = javascript_importmap_tags
+  %div.container
     = yield
     
