@@ -6,16 +6,19 @@
     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
     = csrf_meta_tags
     = csp_meta_tag
-  %body
-    %header.header
-    %p.header_pageTitle 最新記事
-    .dropdown
-      = image_tag 'default-avatar.png', class: 'header_avatar dropbtn'
-      .dropdown-content
-        %a{:href => "#"} プロフィール
-        %a{:href => "#"} ログアウト
+%body
+  %header.header
+    %p.header_pageTitle Boards
+    - if user_signed_in?
+      .dropdown
+        = image_tag 'Untitled design.png', class: 'header_avatar dropbtn'
+        .dropdown-content
+          %a{:href => "#"} プロフィール
+          = link_to 'ログアウト', destroy_user_session_path, data: { method: 'delete' }
+    - else
+      = link_to 'ログイン', new_user_session_path, class: 'header_loginBtn'
     %p.notice= notice
     %p.alert= alert
     = stylesheet_link_tag "application", "data-turbo-track": "reload"
     = javascript_importmap_tags
-    = yield
+= yield
