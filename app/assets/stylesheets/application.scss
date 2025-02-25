@@ -1,0 +1,92 @@
+@import 'header';
+@import 'tabs';
+@import 'variables';
+@import 'card';
+
+html {
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 150%;
+  background-color: $base-bg-color;
+  font-size: 20px;
+  color: $text-base-color;
+  
+}
+
+.container {
+  padding-top:6px;
+  width: 100%;
+
+}
+
+.field{
+  padding-left: 20px;
+  padding-bottom:10px;
+  padding-right:100px;
+}
+
+h2{
+  padding-left: 16px;
+  font-family:Avenir;
+  padding-top: 10px;
+}
+
+p{
+  font-family:Avenir;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.actions{
+  padding-left: 20px;
+  padding-bottom:10px;
+}
+
+.text {
+  width: 125%; /* 幅を100%に設定 */
+  padding: 10px; /* 内側の余白を調整 */
+  font-size: 20px; /* フォントサイズを調整 */
+  margin-top: 10px;
+  border-radius:6px;
+  border:none;
+  background-color: #F4F4F4;
+
+  
+}
+
+.text2{
+  width: 93%; /* 幅を100%に設定 */
+  padding: 10px; /* 内側の余白を調整 */
+  font-size: 16px; /* フォントサイズを調整 */
+  margin-top: 20px;
+  background-color: #F8BD1C;
+  border-radius:6px;
+  border: 1px solid #a8a6a6;
+  border:none;
+  margin-top: 400px;
+}
+
+.header{
+  padding-left:35px;
+}
+
+.header_loginBtn{
+  font-size: 16px;
+  padding-top: 7px;
+  padding-right: 1px;
+}
