@@ -9,6 +9,13 @@ $avatar-size: 32px;
   margin: 25px 15px 25px 15px;
   background-color:#F4F4F4;
 
+  &_title{
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
 
   &_comment {
     display: flex;
@@ -45,7 +52,7 @@ $avatar-size: 32px;
   }
 
   &_content {
-    padding: 16px 16px;
+    padding: 7px 16px;
     display: flex;
     justify-content: space-between;
   }
