@@ -13,11 +13,29 @@
 
     &.active {
       background-color: $primary-color;
-      color: white;
+      color: rgb(56, 56, 56);
+      text-align:left;
     }
 
     &:hover {
       opacity: 0.9;
     }
   }
+}
+
+.active{
+  text-align:left;
+  margin-left: 35px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.card_image{
+  border-radius: 20px;
+  width: 90%;
+  text-align: center;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 10px;
 }
