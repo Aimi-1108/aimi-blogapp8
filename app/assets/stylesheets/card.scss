@@ -14,13 +14,21 @@ $avatar-size: 32px;
     margin-bottom: 8px;
     margin-top: 15px;
     margin-left: 25px;
+    font-family: Avenir;
   }
 
+   &_content1{
+    font-family:Avenir;
+    font-size: 14px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 25px;
+   }
 
   &_comment {
     display: flex;
     margin-top: 30px;
-  
+    
 
     img {
       width:20px;
