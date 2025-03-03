@@ -8,5 +8,5 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Article.create({title: '新しい記事だよ', content: 'これは素晴らしい記事です。'})
-Article.create({title: '最近の記事だよ', content: '久々の投稿です。'})
+Article.create({title: 'ブログ記事について。', content: '新しい記事内容の提案。'})
+Article.create({title: 'プログラミングについて。', content: 'エラーの解決案。'})

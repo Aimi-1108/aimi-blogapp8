@@ -1,54 +1,31 @@
 <div class="container">
     <div class="active">
-      All Boards↓
+      All Boards
     </div>
-  <div class="tabs">
-  </div>
-  <div class="card">
-    <div class="card_image">
-      <%= image_tag 'cute-k.png' %>
-    </div>
-    <div class="card_content">
-      <div class="card_detail">
-        <%= image_tag 'Untitled design.png' %>
+ 
+<% @articles.each do |article| %>
+  <%= link_to article_path(article) do %>
+    <div class="card">
+      <div class="card3">
+        <div class="card_title">
+            <%= article.title %>
+        </div>
+   
+        <div class="card_content">
+          <div class="card_detail">
+            <%= image_tag 'Untitled design.png' %>
 
-      </div>
-      <div class="card_comment">
-        <%= image_tag 'message-square-outline.png' %>
-        <span>23</span>
-      </div>
+          </div>
+        </div>
     </div>
-  </div>
-
-  <div class="card">
-    <div class="card_image">
-      <%= image_tag 'cute-k.png' %>
     </div>
-    <div class="card_content">
-      <div class="card_detail">
-        <%= image_tag 'Untitled design.png' %>
+  <%end%> 
+<% end %>
 
-      </div>
-      <div class="card_comment">
-        <%= image_tag 'message-square-outline.png' %>
-        <span>23</span>
-      </div>
-    </div>
-  </div>
 
-  <div class="card">
-    <div class="card_image">
-      <%= image_tag 'cute-k.png' %>
-    </div>
-    <div class="card_content">
-      <div class="card_detail">
-        <%= image_tag 'Untitled design.png' %>
-
-      </div>
-      <div class="card_comment">
-        <%= image_tag 'message-square-outline.png' %>
-        <span>23</span>
-      </div>
+<div class="article2">
+  <div class="content2">
+    <div class="content-text">+ Add new board</div>
     </div>
   </div>
 </div>
