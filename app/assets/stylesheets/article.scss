@@ -2,16 +2,18 @@ $heart-size: 32px;
 $avatar-size: 32px;
 
 .article {
-  background-color: white;
-  margin: 16px 16px;
-  padding: 16px 16px;
-  position: relative;
-  background-color: #F4F4F4;
-  border-radius: 15px;
+    background-color: white;
+    margin: 16px 0;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 25px 15px 25px 15px;
+    background-color:#F4F4F4;
+    margin: 20px 30px 20px 30px;
 
   &_title {
-    font-size: 22px;
-    font-family: Avenir;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
   }
 
   &_detail {
@@ -25,11 +27,13 @@ $avatar-size: 32px;
       height: 30px;
       border-radius: 100%;
       margin-right: 16px;
+      margin-top: 15px;
     }
   }
 
   &_content {
-    padding: 24px 0 32px;
+    padding-top:10px;
+    font-size: 14px;
   }
 
   &_heart {
@@ -42,4 +46,31 @@ $avatar-size: 32px;
       height: $heart-size;
     }
   }
+}
+
+.article2{
+    border: 2px dashed rgb(189, 189, 189); 
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+    margin: 16px 16px;
+    padding: 16px 16px;
+    position: relative;
+    width: 83%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 20px 30px 20px 30px;
+}
+
+.show-title{
+    padding-left: 35px;
+    margin-top: 25px;
+}
+
+.detail-comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
