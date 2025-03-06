@@ -34,7 +34,7 @@ $avatar-size: 32px;
 
   &_comment {
     display: flex;
-    margin-top: 40px;
+    margin-top: 15px;
     
 
     img {
@@ -52,12 +52,12 @@ $avatar-size: 32px;
   }
 
   &_detail {
-    padding-top: 12px;
+    
     cursor: pointer;
     display: flex;
     font-size: 10px;
     padding-left: 5px;
-    margin-top: 20px;
+    margin-top: 7px;
 
     img {
       width: $avatar-size;
@@ -74,6 +74,7 @@ $avatar-size: 32px;
     justify-content: space-between;
     padding-left: 20px;
     padding-right: 60px;
+    padding-top: 0px;
    
   }
 

@@ -8,10 +8,19 @@
     <div class="card_content1">
     <%= @article.content %>
     </div>
+<div class="article_detail_actions">
+  <div class="dropdown">
+    <%= image_tag 'actions.svg', class: 'dropbtn' %>
+    <div class="dropdown-content mini">
+      <a href="#">編集する</a>
+    </div>
+  </div>
+</div>
     <div class="card_content">
       <div class="card_detail">
         <%= image_tag 'Untitled design.png' %>
     </div>
+
      <div class="card_comment">
   <%= image_tag 'message-square-outline.png' %>
     <span>30</span>

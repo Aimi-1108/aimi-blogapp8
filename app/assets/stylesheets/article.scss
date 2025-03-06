@@ -29,6 +29,12 @@ $avatar-size: 32px;
       margin-right: 16px;
       margin-top: 15px;
     }
+
+    &actions {
+      right: 0px;
+      position: absolute;
+      
+    }
   }
 
   &_content {
@@ -73,4 +79,9 @@ $avatar-size: 32px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.dropdown{
+  margin-left: 275px;
+  size: 60%;
 }
