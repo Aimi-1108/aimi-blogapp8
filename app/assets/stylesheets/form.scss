@@ -1,0 +1,41 @@
+input {
+    &.text {
+      width: 100%;
+      margin: 8px 0px;
+      padding: 16px 24px;
+      border: 1px solid #EBEBEB;
+      margin-left: 20px;
+      width: 90%;
+    }
+  }
+  
+  label {
+    font-size: 18px;
+    font-family: Avenir;
+    margin-left: 18px;
+    padding: 8px;
+  }
+  
+  textarea {
+    width: 90%;
+    margin-left: 18px;
+    padding: 8px 8px;
+    min-height: 203px;
+    resize: vertical;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    margin-top: 10px;
+  }
+
+  text{
+    margin-left: 18px;
+  }
+
+h1 {
+  font-family: Avenir;
+  font-size: 26px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  }  

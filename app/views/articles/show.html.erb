@@ -1,29 +1,25 @@
 <div class="show-title">Brackets</div>
 
-
-  <div class="card">
-    <div class="card3">
-      <div class="card_title">
-          テスト記事
-      </div>
-      <div class="card_content1">
-          これは新しいテスト記事です
-      </div>   
- 
-      <div class="card_content">
-        <div class="card_detail">
-          <%= image_tag 'Untitled design.png' %>
-
-        </div>
-         <div class="card_comment">
-    <%= image_tag 'message-square-outline.png' %>
+<div class="card">
+  <div class="card3">
+    <div class="card_title">
+    <%= @article.title %>
+    </div>
+    <div class="card_content1">
+    <%= @article.content %>
+    </div>
+    <div class="card_content">
+      <div class="card_detail">
+        <%= image_tag 'Untitled design.png' %>
+    </div>
+     <div class="card_comment">
+  <%= image_tag 'message-square-outline.png' %>
     <span>30</span>
-  </div>
-      </div>
-  </div>
   </div>
   </div>
 </div>
+</div>
+
 
 <div class="article2">
   <div class="content2">
@@ -31,3 +27,4 @@
     </div>
   </div>
 </div>
+
