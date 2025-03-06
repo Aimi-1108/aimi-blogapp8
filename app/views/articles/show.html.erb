@@ -12,7 +12,10 @@
   <div class="dropdown">
     <%= image_tag 'actions.svg', class: 'dropbtn' %>
     <div class="dropdown-content mini">
-    <%= link_to '編集する', edit_article_path(@article) %>
+    <%= link_to 'Edit', edit_article_path(@article) %>
+    <%= link_to 'Delete', article_path(@article), method: :delete, data: { confirm: '本当に削除しますか？', turbo: false } %>
+
+    
     </div>
   </div>
 </div>
